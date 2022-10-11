@@ -1,0 +1,318 @@
+*{
+	margin:0;
+padding:0;
+}
+.heading{
+	z-index: 1;
+	/*background-color:red;*/
+height:55px;
+position:sticky;
+top:0;
+background-color:#fff;
+box-shadow: 1px 1px 5px #e1e1e1;
+}
+.another-image{
+	margin-top:40px;
+}
+
+nav{
+	padding:0px 0px 0px 20px;
+/*background-color:yellow;*/
+display:flex;
+justify-content: space-between;
+height:100%;
+align-items: center;
+}
+li{
+display:inline-block;
+margin-right:45px;
+}
+.heading li{
+	padding:5px 10px;
+}
+.heading li:hover{
+	background-color:#e1e1e1;
+
+}
+.heading span,li{
+	font-size:20px;
+}
+.heading span{
+	padding:8px 20px;
+}
+.heading span:hover{
+	background-color:#e1e1e1;
+/*padding:10px 0px;*/
+
+}
+.a{
+	background-image: url(1.jpg);
+background-size:cover;
+background-repeat:no-repeat;
+height: 100vh;
+}
+.main-container{
+	height:375vh;
+}
+.images p{
+	background:black;
+font-size:20px;
+padding:9px 8px 10px 9px;
+width:42%;
+color:#fff;
+}
+.a span{
+	height:100%;
+/* position:relative; */
+/* left:39%; */
+/* top:45%; */
+font-size:35px;
+color:#fff;
+/*filter: brightness(150%);*/
+}
+.a b{
+	background-color:black;
+opacity: 0.5;
+padding:15px 20px;
+filter: brightness(150%);
+background-size:cover;
+}
+
+.b{
+	background-image:url(houseone.jpg);
+/*height:100px;
+width:100px;
+*/background-size:cover;
+
+}
+.c{
+	background-image:url(housetwo.jpg);
+/*height:100px;*/
+/*width:100px;*/
+background-size:cover;
+}
+.d{
+	background-image:url(housethree.jpg);
+/*height:100px;*/
+/*width:100px;*/
+background-size:cover;
+}.e{
+	background-image:url(housefour.jpg);
+background-size:cover;
+/*height:100px;*/
+/*width:100px;*/
+}
+.f{
+	background-image:url(hosuefive.jpg);
+/*height:100px;*/
+/*width:100px;*/
+background-size:cover;
+}
+.g{
+	background-image:url(housesix.jpg);
+background-size:cover;
+/*height: 100px;*/
+/*width: 100px;*/
+}
+.res{
+	height:225px; 
+	width:354px;
+}
+.images{
+	display:grid;
+	grid-template-columns:352px 352px 352px 352px;
+grid-template-rows:205px 205px;
+grid-column-gap: 15px;
+/*padding:0px 40px;*/
+grid-row-gap: 15px;
+padding-left:5px;
+}
+.one{
+	padding:0px 30px;
+margin-top:70px;
+}
+.one span{
+	font-size:25px;
+padding-bottom:20px;
+display:block;
+}
+.one .after{
+display:block;
+background-color:#f7f4f4;
+height:1px;
+width:100%;
+margin-bottom:40px;
+}
+
+.h{
+	background-image:url(houseseven.jpg);
+/*height:100px;*/
+/*width:100px;*/
+background-size:cover;
+}
+.i{
+	background-image:url(1.jpg);
+/*height: 100px;*/
+/*width:100px;*/
+background-size:cover;
+}
+
+.two{
+margin:70px 30px 00px 30px;
+
+}
+.two span{
+	font-size:25px;
+}
+.two p{
+	font-size:19px;
+line-height: 25px;
+}
+.two .another-after{
+	margin:20px 0px;
+	display:block;
+height:1px;
+width:100%;
+background-color:#e1e1e1;
+}
+.another-image{
+	display:flex;
+	gap:15px;
+}
+#same{
+	text-align:justify;
+}
+.z,.y,.x,.w{
+width:354px;
+/*background-color:red;*/
+}
+p{
+	/*text-align:justify;*/
+}
+.contact{
+	/*text-align:center;*/
+	justify-content: center;
+	display:flex;
+/*display:block;*/
+width: 100%;
+padding:9px 0px;
+border:none;
+margin-top:10px;
+font-size:17px;
+}
+.ino{
+width:99%;
+display:block;
+padding:7px;
+font-size:15px;
+margin-top:15px;
+border:1px solid #e2e2e2;
+}
+.las-t{
+	margin:50px 20px 30px 20px;
+/*background-color:yellow;*/
+height:100%;
+
+}
+.las-t span{ 
+font-size:25px; }
+.contact-session{
+	height:370px;
+/*background-color:red;*/
+}
+.las-t p{
+	font-size:18px;
+}
+.contact-i{
+	margin:20px 0px;
+	display:block;
+	height:1px;
+background:#e1e1e1;
+width:100%;
+}
+.last-button{
+	background-color:#000;
+padding:10px 10px;
+color:#fff;
+font-size:18px;
+width:160px;
+margin-top:30px;
+border:none;
+text-align:left;
+
+}
+.last-button:hover{
+	background:#cac9c9;
+color:#000;
+}
+#a{
+	margin:20px 0px;
+color:#978d8d;
+}
+@media(max-width: 500px){
+	.ino{
+		width:92%;
+		margin:auto;
+		margin-top:15px;
+		padding:10px;
+	}
+.las-t{
+	margin:0px 34px;
+}
+.second-main-container .a{
+height:115px;
+}
+li{
+	display:none;
+}
+.a span{
+	/*bottom:20px;*/
+top:50px;
+}
+.n{
+	display:none;
+}
+.a b{
+	position:relative;
+	bottom:26px;
+	font-family:san
+	padding:9px 16px;
+opacity: 0.8;
+}
+.images{
+display:flex;
+flex-direction:column;
+}
+.images p{
+/*height: 20px;*/
+width:47%;
+font-size:17px;
+font-family:sans-serif;
+padding:10px 10px 10px 18px;
+}
+.b, .c, .d, .e, .f, .g, .h, .i{
+height: 170px;
+}
+.another-image{
+	display:flex;
+flex-direction:column;
+/*width:80%;*/
+/*text-align:center;*/
+/*margin-left:0;*/
+}
+.z,.x,.y,.w{
+width:260px;
+}
+.res{
+	width:100%;
+height:179px;
+}
+.ne{
+	display:none;
+}
+}
+#top{
+	position:relative;
+	top:45%;
+	left:40%;
+}
